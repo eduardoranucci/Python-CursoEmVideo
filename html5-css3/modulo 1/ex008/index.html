@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatação de textos</title>
+    <title>Outras formatações</title>
 </head>
 <body>
-    <h1>Principais formatações</h1>
-    <hr>
-    <h2>Negrito</h2>
-    <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong>Suscipit, hic magni et, porro impedit eaque minus omnis harum quas perferendis exercitationem. Quibusdam et illum molestias quo, harum labore in ipsa?</p>
-    <h2>Itálico</h2>
-    <p><em>Lorem ipsum, dolor sit amet consectetur adipisicing elit</em>. Modi voluptatem sit placeat exercitationem ipsa deserunt fuga consequuntur nobis libero dolores et adipisci tenetur inventore tempora, repellat nemo hic vitae eligendi.</p>
-    <h2>Texto marcado</h2>
-    <p><mark style="background-color: aqua;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</mark> Fugiat cupiditate harum placeat doloremque dolorum odit necessitatibus, dolore consequatur quaerat repellat illum suscipit facilis repudiandae, ex praesentium corporis. Esse, inventore beatae.</p>
-    <h2>Texto grande e pequeno</h2>
-    <p><big>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eos unde asperiores impedit eaque voluptates, ea quas eius. Nisi quae delectus aspernatur officia consequuntur libero. Quas unde totam alias? Unde!</big></p> <!-- Tag BIG é obsoleta -->
-    <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis temporibus sit optio accusantium similique mollitia doloribus aspernatur fugit nam itaque aut harum laudantium deleniti aliquid ut, praesentium incidunt sed tempore.</small></p>
-    <h2>Texto deletado</h2>
-    <p><del>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa esse quia obcaecati magni vel maxime ipsum reiciendis earum voluptatibus dolor. Cupiditate deserunt accusantium architecto omnis aut qui optio ipsum perferendis.</del></p>
-    <h2>Texto inserido</h2>
-    <p><ins>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis soluta mollitia sapiente reprehenderit delectus pariatur numquam maiores ipsa illum, iste doloremque cupiditate laborum reiciendis voluptatum minus asperiores, aut, cum voluptatem?</ins></p>
-    <h2>Texto sobrescrito</h2>
-    <p>E = mc<sup>2</sup></p>
-    <h2>Texto subscrito</h2>
-    <p>H<sub>2</sub>O</p>
+    <h1>Outras formatações</h1>
+    <h2>Códigos e Pré-formatada</h2>
+    <p>Normal: print(Hello, World!)</p>
+    <p>Com tag: <code>print(Hello, World!)</code></p>
+    <pre>
+        <code>
+num = int(input('Digite um número: '))
+
+if num % 2 == 0:
+    print('O número inserido é PAR')
+else:
+    print('O número inserido é ÍMPAR')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria Einstein: <q>Duas coisas são infinitas: o universo e a estupidez humana. Mas, em relação ao universo, ainda não tenho certeza absoluta.</q></p>
+    <h2>Citações completas</h2>
+    <p>Como diria Einstein:</p>
+    <blockquote cite="https://www.pensador.com/frases_de_albert_einstein/">
+        Se A é o sucesso, então A é igual a X mais Y mais Z. O trabalho é X; Y é o lazer; e Z é manter a boca fechada.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p><abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">PRA QUE ISSO EXISTE?</bdo></p>
 </body>
 </html>
